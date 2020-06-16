@@ -1,0 +1,66 @@
+
+<!-- HTML code for Papaya price comparer options -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Settings</title>
+		<!-- Some primitive styling -->
+		<style>
+			body {
+				font-family: Verdana;
+			}
+			
+			div {
+				width:100%;
+				float:left;
+				border-bottom:1px dotted grey;
+			}
+			div * {
+				float:left;
+				margin:10px;
+			}
+			#extra_information {
+				font-size:0.8em;
+				color:#ccc;
+			}
+			#extra_information a {
+				font-size:0.8em;
+				color:#ccc;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<h1 style="text-align: center;">
+			Papaya Price Comparer Settings
+		</h1>
+		<div id="convert_to_div">
+			<p class="option_name">
+				Convert prices to currency:
+			</p>
+			<select id="convert_to">
+				<option value="">Disabled</option>
+				<option value="EUR">(&euro;) Euro</option>
+				<option value="GBP">(&pound;) Pound sterling</option>
+			</select>
+		</div>
+		<div id="limit_results_div">
+			<p class="option_name">
+				Limit the number of results:
+			</p>
+			<select id="limit_results">
+				<option value="">Default(10)</option>
+				<option value="3">3</option>
+				<option value="5">5</option>
+				<option value="7">7</option>
+			</select>
+		</div>
+		<br />
+		<p id="extra_information">
+			Items marked with an asterisk (*) are the currently saved setting.<br />
+			After making a change the setting will automatically be saved.<br />
+			<a target="_blank" href="http://www.ecb.europa.eu/stats/exchange/eurofxref/html/index.en.html">Source for currency exchange rates.</a>
+		</p>
+		<script src="options.js"></script>
+	</body>
+</html>
