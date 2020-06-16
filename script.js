@@ -83,7 +83,7 @@ $(document).ready(function() {
 	// 	"method": "POST",
 	// 	"headers": {
 	// 		"x-rapidapi-host": "google-translate1.p.rapidapi.com",
-	// 		"x-rapidapi-key": "afdee8187fmshbea0a48bc010d5fp18a80fjsn4ae09749f719",
+	// 		"x-rapidapi-key": "API_KEY",
 	// 		"accept-encoding": "application/gzip",
 	// 		"content-type": "application/x-www-form-urlencoded"
 	// 	},
