@@ -1,4 +1,4 @@
-# papaya
+# Papaya Price Comparer
 Compare amazon prices within the EU in seconds!
 
 ## What is it?
