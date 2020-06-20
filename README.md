@@ -1,5 +1,6 @@
 # Papaya Price Comparer
 Compare amazon prices within the EU in seconds!
+#### UPDATE: Successfully published! [chrome web store link](https://chrome.google.com/webstore/detail/papaya-price-comparer/nlhegbnllnmmdfkacmcpdmampnbfpami)
 
 ## What is it?
 Papaya is a chrome extension that allows you to compare prices between multiple amazon stores in seconds!
@@ -21,4 +22,3 @@ A comparison of 10 products from all of Amazon4'sEU stores will be shown! Click 
 ![Alt text](https://raw.githubusercontent.com/Vagif12/papaya/master/screenshot1.png?raw=true "screenshot1")
 ![Alt text](https://raw.githubusercontent.com/Vagif12/papaya/master/screenshot2.png?raw=true "screenshot2")
 
-## Chrome extension coming soon!!
