@@ -23,7 +23,7 @@
 					"*://www.amazon.es/gp/buy/*",
 					"*://www.amazon.it/gp/buy/*"
 				],
-      "js": ["jquery.min.js","script.js","jquery.translate.js"]
+      "js": ["jquery.min.js","script.js"]
     }
   ],
   "options_page": "options.html",
