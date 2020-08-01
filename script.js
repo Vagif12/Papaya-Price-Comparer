@@ -173,7 +173,8 @@ $(document).ready(function() {
 		var settings = document.createElement("settings");
 		let settingsrc = chrome.runtime.getURL('img/settings.png')
 			settings.className = "settings";
-			settings.innerHTML = `<a target="_blank" href="chrome-extension://kclgdemmaecaehpmnipbolehonilboha/options.html"><img src="${settingsrc}" style="margin-top: 2%;"> : Settings</a>`
+			let option_url = chrome.extension.getURL('options.html')
+			settings.innerHTML = `<a target="_blank" href="${option_url}"><img src="${settingsrc}" style="margin-top: 2%;"> : Settings</a>`
 			document.getElementById('productTitle').appendChild(settings)
 
 	}

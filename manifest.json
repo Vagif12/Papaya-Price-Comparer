@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "Papaya Price Comparer",
   "description": "Compare Amazon Product Prices within the EU in seconds!",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "icons": { "16":  "Amazon16.png",
 			 "32":  "Amazon32.png",
 			 "128": "Amazon128.png" },
